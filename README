@@ -1,0 +1,10 @@
+This repository contains several simple games writen in Python, the code is run in Codeskulptor, which is a browser-based Python programming environment.
+
+1. Stop watch
+a simple digital stopwatch that keeps track of the time in tenths of a second. The stopwatch contains "Start", "Stop" and "Reset" buttons. It has two numerical counters that keep track of the number of times that you have stopped the watch and how many times you manage to stop the watch on a whole second (1.0, 2.0, 3.0, etc.). 
+Codeskulptor link: http://www.codeskulptor.org/#user40_5zWsSxbAbU_5.py
+
+
+
+
+Codeskulptor link: http://www.codeskulptor.org/#user4-E2tAY5iklKbaLBg.py
