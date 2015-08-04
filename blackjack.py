@@ -126,17 +126,12 @@ def deal():
         outcome = ""
         message = "Hit or stand?"
     
-    print "player: ", player, player.get_value()
-    print "dealer: ", dealer, dealer.get_value()
-    
 def hit():
     global player, deck, outcome, in_play, message, score
     # if the hand is in play, hit the player
     if in_play:
         player.add_card(deck.deal_card())
         value = player.get_value()       
-        print "dealer: ", dealer, dealer.get_value()
-        print "player: ", player, player.get_value()
         # if busted, assign a message to outcome, update in_play and score 
         if value > 21:               
             outcome = "You went bust and lose"  
